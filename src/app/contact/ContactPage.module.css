@@ -1,0 +1,281 @@
+.main {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+/* Hero Section */
+.heroSection {
+    position: relative;
+    height: 40vh;
+    min-height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-4.0.3&auto=format&fit=crop&w=2094&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(13, 143, 209, 0.9), rgba(35, 61, 111, 0.9));
+    z-index: 1;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+}
+
+/* Content Section Layout */
+.contentSection {
+    padding: 6rem 0;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 4rem;
+}
+
+/* Info Box (Left Side) */
+.infoBox {
+    background: white;
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    height: fit-content;
+}
+
+.sectionHeading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    letter-spacing: -0.5px;
+}
+
+.sectionDesc {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.detailItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.iconWrapper {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(13, 143, 209, 0.1);
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.textContent h4 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.textContent a {
+    display: block;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    transition: color 0.3s ease;
+    line-height: 1.5;
+}
+
+.textContent a:hover {
+    color: var(--secondary-color);
+}
+
+.mapContainer {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 3px solid white;
+}
+
+/* Form Box (Right Side) */
+.formBox {
+    background: white;
+    padding: 4rem;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(35, 61, 111, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.formBox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: var(--accent-color);
+}
+
+.formHeader {
+    margin-bottom: 3rem;
+}
+
+.formHeader h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.5px;
+}
+
+.formHeader p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.inputRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.inputGroup label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.inputGroup input,
+.inputGroup select,
+.inputGroup textarea {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: #f8fafc;
+    transition: all 0.3s ease;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus,
+.inputGroup textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba(13, 143, 209, 0.1);
+}
+
+.inputGroup textarea {
+    resize: vertical;
+}
+
+.submitBtn {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1.25rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submitBtn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(13, 143, 209, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .gridContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.75rem;
+    }
+
+    .formBox {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .infoBox {
+        padding: 2rem 1.5rem;
+    }
+
+    .inputRow {
+        grid-template-columns: 1fr;
+    }
+
+    .formHeader h2 {
+        font-size: 2rem;
+    }
+}

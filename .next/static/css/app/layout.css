@@ -1,0 +1,328 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #233d6f;
+    --secondary-color: #0d8fd1;
+    --accent-color: #ecd01f;
+    --bg-color: #ffffff;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --bg-dark: #0f172a;
+    --text-light: #f8fafc;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font-body);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+button {
+    font-family: var(--font-body);
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Footer.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__UaG1g {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    padding-top: 5rem;
+}
+
+.Footer_grid__qjDt3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+    grid-gap: 3rem;
+    gap: 3rem;
+    padding-bottom: 4rem;
+}
+
+.Footer_brand___zP6t h2 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 1rem;
+}
+
+.Footer_brand___zP6t p {
+    color: #94a3b8;
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+.Footer_linksBlock__LrehN,
+.Footer_contactBlock__3ACDd {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Footer_linksBlock__LrehN h3,
+.Footer_contactBlock__3ACDd h3 {
+    font-size: 1.25rem;
+    color: var(--bg-color);
+    margin-bottom: 0.5rem;
+}
+
+.Footer_linksBlock__LrehN a,
+.Footer_contactBlock__3ACDd a,
+.Footer_contactBlock__3ACDd p {
+    color: #cbd5e1;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.Footer_linksBlock__LrehN a:hover,
+.Footer_contactBlock__3ACDd a:hover {
+    color: var(--accent-color);
+}
+
+.Footer_bottom__O5rKs {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem 0;
+    text-align: center;
+    color: #64748b;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .Footer_grid__qjDt3 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Header.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__MvnS2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem 0;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.Header_scrolled__s9Ifj {
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    padding: 1rem 0;
+}
+
+.Header_scrolled__s9Ifj .Header_logo__j7oID,
+.Header_scrolled__s9Ifj .Header_navList__l21rr a {
+    color: var(--primary-color);
+}
+
+.Header_nav__EE71E {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header_logo__j7oID {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    letter-spacing: -0.5px;
+    transition: color 0.3s ease;
+}
+
+.Header_navList__l21rr {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Header_navList__l21rr a {
+    font-weight: 500;
+    color: var(--bg-color);
+    font-size: 1rem;
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.Header_navList__l21rr a:hover {
+    opacity: 0.8;
+    color: var(--accent-color);
+}
+
+.Header_navList__l21rr a.Header_active__t8h51 {
+    color: var(--accent-color);
+    position: relative;
+}
+
+.Header_navList__l21rr a.Header_active__t8h51::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}
+
+.Header_scrolled__s9Ifj .Header_navList__l21rr a.Header_active__t8h51 {
+    color: var(--primary-color);
+}
+
+.Header_scrolled__s9Ifj .Header_navList__l21rr a.Header_active__t8h51::after {
+    background-color: var(--primary-color);
+}
+
+.Header_actions__AFxTd {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Header_cta__BKss3 {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Header_cta__BKss3:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(236, 208, 31, 0.3);
+}
+
+.Header_hamburger___6DdG {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+.Header_scrolled__s9Ifj .Header_hamburger___6DdG {
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .Header_nav__EE71E {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 250px;
+        background: var(--bg-color);
+        transition: right 0.3s ease;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+    }
+
+    .Header_navOpen__uAq5h {
+        right: 0;
+    }
+
+    .Header_navList__l21rr {
+        flex-direction: column;
+        padding: 6rem 2rem;
+    }
+
+    .Header_navList__l21rr a {
+        color: var(--text-primary);
+        font-size: 1.25rem;
+    }
+
+    .Header_hamburger___6DdG {
+        display: block;
+        z-index: 101;
+    }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/ScrollToTop.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.ScrollToTop_scrollToTopBtn__OAN_S {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 999;
+}
+
+.ScrollToTop_scrollToTopBtn__OAN_S.ScrollToTop_visible__SxlaB {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.ScrollToTop_scrollToTopBtn__OAN_S:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(236, 208, 31, 0.3);
+}
+
+@media (max-width: 768px) {
+    .ScrollToTop_scrollToTopBtn__OAN_S {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+}

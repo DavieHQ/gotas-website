@@ -1,0 +1,266 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/properties/[slug]/PropertyDetail.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.PropertyDetail_main__Xg6qJ {
+    background-color: #f8fafc;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.PropertyDetail_hero__MdUCk {
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+.PropertyDetail_overlay__f7FF_ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.9), transparent);
+    z-index: 1;
+}
+
+.PropertyDetail_heroContent__8ypSG {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 3rem;
+}
+
+.PropertyDetail_topActions__dcp0l {
+    margin-bottom: 2rem;
+}
+
+.PropertyDetail_statusBadge__QVeZU {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.PropertyDetail_title__ia0RT {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.PropertyDetail_location___kElA {
+    font-size: 1.25rem;
+    color: #e2e8f0;
+}
+
+.PropertyDetail_contentGrid__Wb7oB {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3rem;
+    gap: 3rem;
+    margin-top: -3rem;
+    position: relative;
+    z-index: 10;
+}
+
+.PropertyDetail_section__sPgpw {
+    background: var(--bg-color);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+.PropertyDetail_section__sPgpw h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.PropertyDetail_overviewText__MW783 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.PropertyDetail_featuresList__RMdtQ {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+}
+
+.PropertyDetail_featureItem__aTBcT {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.PropertyDetail_checkIcon__EVK5K {
+    color: var(--accent-color);
+    background: var(--primary-color);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.PropertyDetail_gallery__RjzH7 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+
+.PropertyDetail_galleryImg__kCOna {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.PropertyDetail_galleryImg__kCOna:hover {
+    transform: scale(1.02);
+}
+
+.PropertyDetail_sidebar__VyQRK {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+.PropertyDetail_bookingCard__FH9KL {
+    background: var(--primary-color);
+    color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(35, 61, 111, 0.2);
+    text-align: center;
+}
+
+.PropertyDetail_bookingCard__FH9KL h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.PropertyDetail_price__cwgD3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+}
+
+.PropertyDetail_bookingText__cJfj_ {
+    color: #cbd5e1;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.PropertyDetail_primaryBtn__0UWa3,
+.PropertyDetail_secondaryBtn__g6xQ2 {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.PropertyDetail_primaryBtn__0UWa3 {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.PropertyDetail_primaryBtn__0UWa3:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(236, 208, 31, 0.3);
+}
+
+.PropertyDetail_secondaryBtn__g6xQ2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.PropertyDetail_secondaryBtn__g6xQ2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 992px) {
+    .PropertyDetail_contentGrid__Wb7oB {
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+
+    .PropertyDetail_sidebar__VyQRK {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .PropertyDetail_title__ia0RT {
+        font-size: 2.5rem;
+    }
+
+    .PropertyDetail_section__sPgpw {
+        padding: 2rem;
+    }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/BackButton.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.BackButton_backBtn__V_mjf {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.BackButton_backBtn__V_mjf:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateX(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.BackButton_backBtn__V_mjf svg {
+    transition: transform 0.3s ease;
+}
+
+.BackButton_backBtn__V_mjf:hover svg {
+    transform: translateX(-3px);
+}

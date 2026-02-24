@@ -1,0 +1,218 @@
+.section {
+    padding: 8rem 0;
+    background-color: #f8fafc;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.header {
+    margin-bottom: 0;
+}
+
+.scrollControls {
+    display: flex;
+    gap: 1rem;
+}
+
+.scrollBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    background: transparent;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.scrollBtn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.tagline {
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.heading {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.carouselContainer {
+    display: flex;
+    gap: 2.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 2rem;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.carouselContainer::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari and Opera */
+}
+
+.card {
+    background: var(--bg-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    max-width: 400px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s ease;
+}
+
+.card:hover .imageWrapper {
+    transform: scale(1.05);
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to bottom, transparent, rgba(15, 23, 42, 0.6));
+    z-index: 1;
+}
+
+.content {
+    padding: 2.5rem;
+    position: relative;
+    z-index: 2;
+    background: var(--bg-color);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.card:hover .content h3 {
+    color: var(--secondary-color);
+}
+
+.content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.linkBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: color 0.3s ease, gap 0.3s ease;
+}
+
+.card:hover .linkBtn {
+    color: var(--secondary-color);
+    gap: 1rem;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .arrow {
+    transform: translateX(5px);
+}
+
+.downloadSection {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.downloadBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.25rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(35, 61, 111, 0.2);
+}
+
+.downloadBtn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(13, 143, 209, 0.3);
+}
+
+.downloadIcon {
+    transition: transform 0.3s ease;
+}
+
+.downloadBtn:hover .downloadIcon {
+    transform: translateY(3px);
+}
+
+@media (max-width: 768px) {
+    .headerTop {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .heading {
+        font-size: 2.25rem;
+    }
+
+    .downloadBtn {
+        width: 100%;
+        justify-content: center;
+    }
+}
