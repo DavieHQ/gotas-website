@@ -32,7 +32,7 @@
     color: var(--primary-color);
     border-color: var(--primary-color);
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(236, 208, 31, 0.3);
+    box-shadow: 0 15px 30px rgba(212, 175, 55, 0.3);
 }
 
 @media (max-width: 768px) {

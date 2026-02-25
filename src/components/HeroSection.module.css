@@ -71,12 +71,12 @@
 .primaryBtn {
     background-color: var(--accent-color);
     color: var(--primary-color);
-    box-shadow: 0 10px 30px rgba(236, 208, 31, 0.3);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
 }
 
 .primaryBtn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(236, 208, 31, 0.4);
+    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
 }
 
 .secondaryBtn {

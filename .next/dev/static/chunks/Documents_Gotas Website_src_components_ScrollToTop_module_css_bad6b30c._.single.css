@@ -33,7 +33,7 @@
   color: var(--primary-color);
   border-color: var(--primary-color);
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px #ecd01f4d;
+  box-shadow: 0 15px 30px #d4af374d;
 }
 
 @media (max-width: 768px) {

@@ -69,12 +69,12 @@
 .HeroSection-module__UBaH4a__primaryBtn {
   background-color: var(--accent-color);
   color: var(--primary-color);
-  box-shadow: 0 10px 30px #ecd01f4d;
+  box-shadow: 0 10px 30px #d4af374d;
 }
 
 .HeroSection-module__UBaH4a__primaryBtn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 40px #ecd01f66;
+  box-shadow: 0 15px 40px #d4af3766;
 }
 
 .HeroSection-module__UBaH4a__secondaryBtn {

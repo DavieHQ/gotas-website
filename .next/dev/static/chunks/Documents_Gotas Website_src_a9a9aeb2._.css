@@ -3,7 +3,7 @@
 :root {
   --primary-color: #233d6f;
   --secondary-color: #0d8fd1;
-  --accent-color: #ecd01f;
+  --accent-color: #d4af37;
   --bg-color: #fff;
   --text-primary: #111827;
   --text-secondary: #4b5563;
@@ -149,7 +149,7 @@ button {
 
 .Header-module__jRA_OW__cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px #ecd01f4d;
+  box-shadow: 0 10px 20px #d4af374d;
 }
 
 .Header-module__jRA_OW__hamburger {
@@ -338,7 +338,7 @@ button {
   color: var(--primary-color);
   border-color: var(--primary-color);
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px #ecd01f4d;
+  box-shadow: 0 15px 30px #d4af374d;
 }
 
 @media (max-width: 768px) {
