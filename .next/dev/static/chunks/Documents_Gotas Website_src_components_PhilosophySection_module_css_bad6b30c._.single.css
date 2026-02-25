@@ -1,0 +1,49 @@
+/* [project]/Documents/Gotas Website/src/components/PhilosophySection.module.css [app-client] (css) */
+.PhilosophySection-module__a6v3mG__section {
+  background-color: var(--bg-color);
+  padding: 6rem 0;
+  display: flex;
+}
+
+.PhilosophySection-module__a6v3mG__text {
+  letter-spacing: -1px;
+  text-align: left;
+  color: var(--text-primary);
+  flex-wrap: wrap;
+  max-width: 1100px;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  display: flex;
+}
+
+.PhilosophySection-module__a6v3mG__word {
+  opacity: .1;
+  white-space: pre;
+  transition: opacity .5s cubic-bezier(.16, 1, .3, 1), transform .5s cubic-bezier(.16, 1, .3, 1);
+  display: inline-block;
+  transform: translateY(15px);
+}
+
+.PhilosophySection-module__a6v3mG__revealed .PhilosophySection-module__a6v3mG__word {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 992px) {
+  .PhilosophySection-module__a6v3mG__text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .PhilosophySection-module__a6v3mG__section {
+    padding: 4rem 0;
+  }
+
+  .PhilosophySection-module__a6v3mG__text {
+    font-size: 1.75rem;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_components_PhilosophySection_module_css_bad6b30c._.single.css.map*/

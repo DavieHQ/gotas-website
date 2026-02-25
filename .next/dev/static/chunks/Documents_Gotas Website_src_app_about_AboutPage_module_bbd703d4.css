@@ -1,0 +1,401 @@
+/* [project]/Documents/Gotas Website/src/app/about/AboutPage.module.css [app-client] (css) */
+.AboutPage-module__L4T9Lq__main {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+
+.AboutPage-module__L4T9Lq__heroSection {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1577495508048-b635879837f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  min-height: 500px;
+  display: flex;
+  position: relative;
+}
+
+.AboutPage-module__L4T9Lq__heroOverlay {
+  z-index: 1;
+  background: linear-gradient(135deg, #233d6ff2 0%, #0d8fd1cc 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.AboutPage-module__L4T9Lq__heroContent {
+  z-index: 2;
+  color: #fff;
+  max-width: 900px;
+  margin-top: 50px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.AboutPage-module__L4T9Lq__badge {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+  padding: .5rem 1.5rem;
+  font-size: .85rem;
+  font-weight: 800;
+  display: inline-block;
+  box-shadow: 0 10px 20px #0000001a;
+}
+
+.AboutPage-module__L4T9Lq__title {
+  letter-spacing: -1.5px;
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.AboutPage-module__L4T9Lq__subtitle {
+  color: #ffffffe6;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.AboutPage-module__L4T9Lq__sectionHeading {
+  color: var(--primary-color);
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.AboutPage-module__L4T9Lq__textCenter {
+  text-align: center;
+}
+
+.AboutPage-module__L4T9Lq__storySection {
+  background: #fff;
+  padding: 8rem 0;
+}
+
+.AboutPage-module__L4T9Lq__storyContainer {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+  display: grid;
+}
+
+.AboutPage-module__L4T9Lq__paragraph {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.AboutPage-module__L4T9Lq__quoteBlock {
+  border-left: 4px solid var(--accent-color);
+  color: var(--primary-color);
+  background: #233d6f08;
+  border-radius: 0 20px 20px 0;
+  margin: 3rem 0;
+  padding: 2rem;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.AboutPage-module__L4T9Lq__quoteBlock footer {
+  color: var(--secondary-color);
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.AboutPage-module__L4T9Lq__imageContent {
+  height: 100%;
+  min-height: 600px;
+  position: relative;
+}
+
+.AboutPage-module__L4T9Lq__imageWrapper {
+  background-image: url("https://images.unsplash.com/photo-1628611225249-6c4789547d2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 30px 60px #0000001a;
+}
+
+.AboutPage-module__L4T9Lq__floatingStats {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 3rem;
+  display: flex;
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  box-shadow: 0 20px 40px #233d6f4d;
+}
+
+.AboutPage-module__L4T9Lq__number {
+  color: var(--accent-color);
+  margin-bottom: .5rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  display: block;
+}
+
+.AboutPage-module__L4T9Lq__label {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.AboutPage-module__L4T9Lq__divider {
+  background: #fff3;
+  width: 2px;
+  height: 50px;
+}
+
+.AboutPage-module__L4T9Lq__solutionsSection {
+  background-color: var(--bg-color);
+  padding: 8rem 0;
+}
+
+.AboutPage-module__L4T9Lq__solutionsHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 5rem;
+}
+
+.AboutPage-module__L4T9Lq__sectionSubheading {
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.AboutPage-module__L4T9Lq__grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  display: grid;
+}
+
+.AboutPage-module__L4T9Lq__gridCard {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #0000000d;
+  border-radius: 20px;
+  padding: 4rem 3rem;
+  transition: transform .4s, box-shadow .4s;
+  box-shadow: 0 10px 30px #00000008;
+}
+
+.AboutPage-module__L4T9Lq__gridCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px #00000014;
+}
+
+.AboutPage-module__L4T9Lq__iconBox {
+  width: 80px;
+  height: 80px;
+  color: var(--secondary-color);
+  background: #0d8fd11a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 2rem;
+  font-size: 2.5rem;
+  transition: background .3s;
+  display: flex;
+}
+
+.AboutPage-module__L4T9Lq__gridCard:hover .AboutPage-module__L4T9Lq__iconBox {
+  background: var(--accent-color);
+}
+
+.AboutPage-module__L4T9Lq__gridCard h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.AboutPage-module__L4T9Lq__gridCard p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.AboutPage-module__L4T9Lq__quotesSection {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 8rem 0;
+  position: relative;
+}
+
+.AboutPage-module__L4T9Lq__quoteOverlay {
+  background: var(--primary-color);
+  opacity: .9;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.AboutPage-module__L4T9Lq__quotesContainer {
+  z-index: 2;
+  max-width: 900px;
+  position: relative;
+}
+
+.AboutPage-module__L4T9Lq__quoteText {
+  color: #fff;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.AboutPage-module__L4T9Lq__leadershipSection {
+  background: #fff;
+  padding: 8rem 0;
+}
+
+.AboutPage-module__L4T9Lq__leadershipGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 4rem auto 0;
+  display: grid;
+}
+
+.AboutPage-module__L4T9Lq__leaderCard {
+  text-align: center;
+  background: var(--bg-color);
+  border-radius: 30px;
+  padding: 4rem 3rem;
+  transition: transform .4s;
+}
+
+.AboutPage-module__L4T9Lq__leaderCard:hover {
+  transform: translateY(-10px);
+}
+
+.AboutPage-module__L4T9Lq__leaderAvatar {
+  background-color: var(--primary-color);
+  background-position: top;
+  background-size: cover;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 15px 30px #233d6f33;
+}
+
+.AboutPage-module__L4T9Lq__leaderName {
+  color: var(--primary-color);
+  margin-bottom: .5rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.AboutPage-module__L4T9Lq__leaderTitle {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.AboutPage-module__L4T9Lq__leaderBio {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 992px) {
+  .AboutPage-module__L4T9Lq__storyContainer {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .AboutPage-module__L4T9Lq__imageContent {
+    min-height: 500px;
+  }
+
+  .AboutPage-module__L4T9Lq__floatingStats {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .AboutPage-module__L4T9Lq__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .AboutPage-module__L4T9Lq__title {
+    font-size: 3rem;
+  }
+
+  .AboutPage-module__L4T9Lq__sectionHeading {
+    font-size: 2.5rem;
+  }
+
+  .AboutPage-module__L4T9Lq__grid, .AboutPage-module__L4T9Lq__leadershipGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .AboutPage-module__L4T9Lq__storyContainer {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .AboutPage-module__L4T9Lq__imageWrapper {
+    min-height: 400px;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+
+  .AboutPage-module__L4T9Lq__floatingStats {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 90%;
+    padding: 1.5rem 1rem;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .AboutPage-module__L4T9Lq__quoteText {
+    font-size: 2rem;
+  }
+
+  .AboutPage-module__L4T9Lq__divider {
+    width: 50px;
+    height: 2px;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_app_about_AboutPage_module_bbd703d4.css.map*/

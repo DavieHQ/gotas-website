@@ -1,0 +1,132 @@
+/* [project]/Documents/Gotas Website/src/components/ContactCTA.module.css [app-client] (css) */
+.ContactCTA-module__5ROhRq__section {
+  background-color: var(--bg-color);
+  padding: 8rem 0;
+  position: relative;
+}
+
+.ContactCTA-module__5ROhRq__header {
+  text-align: center;
+  margin-bottom: 5rem;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.ContactCTA-module__5ROhRq__tagline {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.ContactCTA-module__5ROhRq__heading {
+  color: var(--primary-color);
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.ContactCTA-module__5ROhRq__description {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.ContactCTA-module__5ROhRq__cardsContainer {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-bottom: 5rem;
+  display: grid;
+}
+
+.ContactCTA-module__5ROhRq__card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #0000000d;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  transition: transform .4s, box-shadow .4s;
+  display: flex;
+  box-shadow: 0 10px 40px #0000000d;
+}
+
+.ContactCTA-module__5ROhRq__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px #0d8fd126;
+}
+
+.ContactCTA-module__5ROhRq__iconWrapper {
+  background-color: #0d8fd11a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1.5rem;
+  transition: background-color .4s, transform .4s;
+  display: flex;
+}
+
+.ContactCTA-module__5ROhRq__icon {
+  font-size: 2rem;
+  transition: transform .4s;
+}
+
+.ContactCTA-module__5ROhRq__card:hover .ContactCTA-module__5ROhRq__iconWrapper {
+  background-color: var(--primary-color);
+}
+
+.ContactCTA-module__5ROhRq__card:hover .ContactCTA-module__5ROhRq__icon {
+  transform: scale(1.1);
+}
+
+.ContactCTA-module__5ROhRq__card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.ContactCTA-module__5ROhRq__card a {
+  color: var(--text-secondary);
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.ContactCTA-module__5ROhRq__card a:hover {
+  color: var(--secondary-color);
+}
+
+.ContactCTA-module__5ROhRq__mapContainer {
+  border: 5px solid #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transform: translateZ(0);
+  box-shadow: 0 15px 50px #0000001a;
+}
+
+@media (max-width: 992px) {
+  .ContactCTA-module__5ROhRq__cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .ContactCTA-module__5ROhRq__cardsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .ContactCTA-module__5ROhRq__heading {
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_components_ContactCTA_module_css_bad6b30c._.single.css.map*/

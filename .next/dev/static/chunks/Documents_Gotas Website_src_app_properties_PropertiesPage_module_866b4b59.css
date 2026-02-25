@@ -1,0 +1,247 @@
+/* [project]/Documents/Gotas Website/src/app/properties/PropertiesPage.module.css [app-client] (css) */
+.PropertiesPage-module__dyD23G__main {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+
+.PropertiesPage-module__dyD23G__pageHero {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2075&q=80");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  min-height: 400px;
+  display: flex;
+  position: relative;
+}
+
+.PropertiesPage-module__dyD23G__heroOverlay {
+  z-index: 1;
+  background: linear-gradient(135deg, #233d6fe6 0%, #111827cc 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.PropertiesPage-module__dyD23G__heroContent {
+  z-index: 2;
+  color: #fff;
+  max-width: 800px;
+  margin-top: 80px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.PropertiesPage-module__dyD23G__title {
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.PropertiesPage-module__dyD23G__subtitle {
+  color: #fffc;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.PropertiesPage-module__dyD23G__propertiesList {
+  flex-direction: column;
+  gap: 6rem;
+  padding: 6rem 0;
+  display: flex;
+}
+
+.PropertiesPage-module__dyD23G__propertyCard {
+  background: #fff;
+  border: 1px solid #0000000d;
+  border-radius: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem;
+  transition: transform .4s, box-shadow .4s;
+  display: grid;
+  overflow: hidden;
+  box-shadow: 0 10px 40px #00000008;
+}
+
+.PropertiesPage-module__dyD23G__propertyCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px #00000014;
+}
+
+.PropertiesPage-module__dyD23G__reverseRow {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "content image";
+}
+
+.PropertiesPage-module__dyD23G__reverseRow .PropertiesPage-module__dyD23G__imageColumn {
+  grid-area: image;
+}
+
+.PropertiesPage-module__dyD23G__reverseRow .PropertiesPage-module__dyD23G__contentColumn {
+  grid-area: content;
+}
+
+.PropertiesPage-module__dyD23G__imageColumn {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.PropertiesPage-module__dyD23G__imageWrapper {
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+}
+
+.PropertiesPage-module__dyD23G__statusBadge {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  padding: .6rem 1.25rem;
+  font-size: .8rem;
+  font-weight: 700;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-shadow: 0 4px 15px #0003;
+}
+
+.PropertiesPage-module__dyD23G__contentColumn {
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2rem;
+  display: flex;
+}
+
+.PropertiesPage-module__dyD23G__reverseRow .PropertiesPage-module__dyD23G__contentColumn {
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+.PropertiesPage-module__dyD23G__projectName {
+  color: var(--primary-color);
+  letter-spacing: -.5px;
+  margin-bottom: .5rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.PropertiesPage-module__dyD23G__featuresList {
+  border-bottom: 1px solid #0000000d;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+}
+
+.PropertiesPage-module__dyD23G__featuresList span {
+  color: var(--text-secondary);
+  align-items: center;
+  gap: .4rem;
+  font-size: .95rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.PropertiesPage-module__dyD23G__projectLocation {
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.PropertiesPage-module__dyD23G__projectDesc {
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.PropertiesPage-module__dyD23G__detailsBtn {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: #0000;
+  border-radius: 50px;
+  align-items: center;
+  gap: .75rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-flex;
+}
+
+.PropertiesPage-module__dyD23G__detailsBtn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.PropertiesPage-module__dyD23G__btnIcon {
+  transition: transform .3s;
+}
+
+.PropertiesPage-module__dyD23G__detailsBtn:hover .PropertiesPage-module__dyD23G__btnIcon {
+  transform: translateX(4px);
+}
+
+@media (max-width: 992px) {
+  .PropertiesPage-module__dyD23G__propertyCard, .PropertiesPage-module__dyD23G__reverseRow {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .PropertiesPage-module__dyD23G__reverseRow .PropertiesPage-module__dyD23G__imageColumn, .PropertiesPage-module__dyD23G__reverseRow .PropertiesPage-module__dyD23G__contentColumn {
+    grid-area: auto;
+  }
+
+  .PropertiesPage-module__dyD23G__contentColumn, .PropertiesPage-module__dyD23G__reverseRow .PropertiesPage-module__dyD23G__contentColumn {
+    padding: 0 1rem 1rem;
+  }
+
+  .PropertiesPage-module__dyD23G__projectName {
+    font-size: 2rem;
+  }
+
+  .PropertiesPage-module__dyD23G__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .PropertiesPage-module__dyD23G__propertiesList {
+    gap: 4rem;
+    padding: 4rem 1rem;
+  }
+
+  .PropertiesPage-module__dyD23G__imageColumn, .PropertiesPage-module__dyD23G__imageWrapper {
+    min-height: 300px;
+  }
+
+  .PropertiesPage-module__dyD23G__title {
+    font-size: 2rem;
+  }
+
+  .PropertiesPage-module__dyD23G__pageHero {
+    height: 40vh;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_app_properties_PropertiesPage_module_866b4b59.css.map*/

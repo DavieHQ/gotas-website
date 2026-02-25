@@ -1,0 +1,35 @@
+/* [project]/Documents/Gotas Website/src/components/BackButton.module.css [app-client] (css) */
+.BackButton-module__bBcQsq__backBtn {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #ffffff26;
+  border: 1px solid #fff3;
+  border-radius: 50px;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all .3s;
+  display: inline-flex;
+}
+
+.BackButton-module__bBcQsq__backBtn:hover {
+  background: #ffffff40;
+  transform: translateX(-5px);
+  box-shadow: 0 4px 15px #0000001a;
+}
+
+.BackButton-module__bBcQsq__backBtn svg {
+  transition: transform .3s;
+}
+
+.BackButton-module__bBcQsq__backBtn:hover svg {
+  transform: translateX(-3px);
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_components_BackButton_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/Gotas Website/src/app/globals.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');\n\n:root {\n    --primary-color: #233d6f;\n    --secondary-color: #0d8fd1;\n    --accent-color: #ecd01f;\n    --bg-color: #ffffff;\n    --text-primary: #111827;\n    --text-secondary: #4b5563;\n    --bg-dark: #0f172a;\n    --text-light: #f8fafc;\n    --font-heading: 'Outfit', sans-serif;\n    --font-body: 'Outfit', sans-serif;\n}\n\n* {\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n}\n\nhtml,\nbody {\n    max-width: 100vw;\n    overflow-x: hidden;\n    font-family: var(--font-body);\n    background-color: var(--bg-color);\n    color: var(--text-primary);\n    scroll-behavior: smooth;\n}\n\na {\n    color: inherit;\n    text-decoration: none;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    font-family: var(--font-heading);\n}\n\nbutton {\n    font-family: var(--font-body);\n}\n\n.container {\n    width: 100%;\n    max-width: 1280px;\n    margin: 0 auto;\n    padding: 0 2rem;\n}"],"names":[],"mappings":"AAEA;;;;;;;;;;;;;AAaA;;;;;;AAMA;;;;;;;;;AAUA;;;;;AAKA;;;;AASA;;;;AAIA"}}]
+}

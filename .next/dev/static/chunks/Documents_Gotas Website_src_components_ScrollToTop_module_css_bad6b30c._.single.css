@@ -1,0 +1,48 @@
+/* [project]/Documents/Gotas Website/src/components/ScrollToTop.module.css [app-client] (css) */
+.ScrollToTop-module__Ex76Ta__scrollToTopBtn {
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 90;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px #0003;
+}
+
+.ScrollToTop-module__Ex76Ta__scrollToTopBtn.ScrollToTop-module__Ex76Ta__visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.ScrollToTop-module__Ex76Ta__scrollToTopBtn:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px #ecd01f4d;
+}
+
+@media (max-width: 768px) {
+  .ScrollToTop-module__Ex76Ta__scrollToTopBtn {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_components_ScrollToTop_module_css_bad6b30c._.single.css.map*/

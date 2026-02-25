@@ -1,0 +1,64 @@
+/* [project]/Documents/Gotas Website/src/components/Footer.module.css [app-client] (css) */
+.Footer-module__3OTYca__footer {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding-top: 5rem;
+}
+
+.Footer-module__3OTYca__grid {
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 3rem;
+  padding-bottom: 4rem;
+  display: grid;
+}
+
+.Footer-module__3OTYca__brand h2 {
+  color: var(--bg-color);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.Footer-module__3OTYca__brand p {
+  color: #94a3b8;
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.Footer-module__3OTYca__linksBlock, .Footer-module__3OTYca__contactBlock {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.Footer-module__3OTYca__linksBlock h3, .Footer-module__3OTYca__contactBlock h3 {
+  color: var(--bg-color);
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+
+.Footer-module__3OTYca__linksBlock a, .Footer-module__3OTYca__contactBlock a, .Footer-module__3OTYca__contactBlock p {
+  color: #cbd5e1;
+  font-size: .95rem;
+  transition: color .3s;
+}
+
+.Footer-module__3OTYca__linksBlock a:hover, .Footer-module__3OTYca__contactBlock a:hover {
+  color: var(--accent-color);
+}
+
+.Footer-module__3OTYca__bottom {
+  text-align: center;
+  color: #64748b;
+  border-top: 1px solid #ffffff1a;
+  padding: 2rem 0;
+  font-size: .875rem;
+}
+
+@media (max-width: 768px) {
+  .Footer-module__3OTYca__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_components_Footer_module_css_bad6b30c._.single.css.map*/

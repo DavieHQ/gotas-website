@@ -9,7 +9,6 @@ const projects = [
         badge: '5 BEDROOMS PENTHOUSE',
         beds: '5 Beds',
         baths: '6 Baths',
-        area: 'undefined sqft',
         image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80',
         link: '/properties/gotas-ecocity-idu-gousa',
         description: 'Available in all our estates It Features:4 bedrooms, 4 bath/5 Toilets,1 Kitchen, 1 Balcony, 1 Floor, Parking space, 24hrs Security, Retriculated water supply, N16M For Land. This property includes modern appliances and hardwood flooring.'
@@ -21,7 +20,6 @@ const projects = [
         badge: '5 BEDROOMS SMD DUPLEX',
         beds: '5 Beds',
         baths: '6 Baths',
-        area: 'undefined sqft',
         image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80',
         link: '/properties/kingsland-idu-gousa',
         description: 'Premium luxury estates designed for the elite, offering unmatched comfort and security. This property includes modern appliances and a spacious open floor plan.'
@@ -33,7 +31,6 @@ const projects = [
         badge: '5 BEDROOMS D-DUPLEX',
         beds: '5 Beds',
         baths: '6 Baths',
-        area: 'undefined sqft',
         image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1153&q=80',
         link: '/properties/kings-garden-estate-kabusa',
         description: 'Your tranquil getaway within the city, featuring serene landscapes and exquisite architecture.'
@@ -45,7 +42,6 @@ const projects = [
         badge: '4 BEDROOMS TERRACE DUPLEX',
         beds: '4 Beds',
         baths: '4 Baths',
-        area: 'undefined sqft',
         image: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80',
         link: '/properties/the-aurora-by-gotas',
         description: 'The Aurora is a perfected blend of luxury, convenience, nature and smart living all on a slim budget.'
@@ -80,7 +76,6 @@ export default function PropertiesPage() {
                             <div className={styles.featuresList}>
                                 <span>🛏️ {project.beds}</span>
                                 <span>🛁 {project.baths}</span>
-                                <span>📐 {project.area}</span>
                             </div>
 
                             <p className={styles.projectDesc}>{project.description}</p>

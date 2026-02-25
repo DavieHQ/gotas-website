@@ -1,0 +1,218 @@
+/* [project]/Documents/Gotas Website/src/components/ProjectsHighlight.module.css [app-client] (css) */
+.ProjectsHighlight-module__kYDAoG__section {
+  background-color: #f8fafc;
+  padding: 8rem 0;
+}
+
+.ProjectsHighlight-module__kYDAoG__headerTop {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.ProjectsHighlight-module__kYDAoG__header {
+  margin-bottom: 0;
+}
+
+.ProjectsHighlight-module__kYDAoG__scrollControls {
+  gap: 1rem;
+  display: flex;
+}
+
+.ProjectsHighlight-module__kYDAoG__scrollBtn {
+  border: 2px solid var(--primary-color);
+  width: 50px;
+  height: 50px;
+  color: var(--primary-color);
+  cursor: pointer;
+  background: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.ProjectsHighlight-module__kYDAoG__scrollBtn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.ProjectsHighlight-module__kYDAoG__tagline {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: .5rem;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.ProjectsHighlight-module__kYDAoG__heading {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.ProjectsHighlight-module__kYDAoG__carouselContainer {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  gap: 2.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  overflow-x: auto;
+}
+
+.ProjectsHighlight-module__kYDAoG__carouselContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.ProjectsHighlight-module__kYDAoG__card {
+  background: var(--bg-color);
+  scroll-snap-align: start;
+  border-radius: 20px;
+  flex-direction: column;
+  flex: none;
+  min-width: 350px;
+  max-width: 400px;
+  transition: transform .4s, box-shadow .4s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #0000000d;
+}
+
+.ProjectsHighlight-module__kYDAoG__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px #0000001a;
+}
+
+.ProjectsHighlight-module__kYDAoG__imageWrapper {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform .6s;
+}
+
+.ProjectsHighlight-module__kYDAoG__card:hover .ProjectsHighlight-module__kYDAoG__imageWrapper {
+  transform: scale(1.05);
+}
+
+.ProjectsHighlight-module__kYDAoG__imageOverlay {
+  z-index: 1;
+  background: linear-gradient(#0000, #0f172a99);
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ProjectsHighlight-module__kYDAoG__content {
+  z-index: 2;
+  background: var(--bg-color);
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2.5rem;
+  display: flex;
+  position: relative;
+}
+
+.ProjectsHighlight-module__kYDAoG__content h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color .3s;
+}
+
+.ProjectsHighlight-module__kYDAoG__card:hover .ProjectsHighlight-module__kYDAoG__content h3 {
+  color: var(--secondary-color);
+}
+
+.ProjectsHighlight-module__kYDAoG__content p {
+  color: var(--text-secondary);
+  flex-grow: 1;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.ProjectsHighlight-module__kYDAoG__linkBtn {
+  color: var(--primary-color);
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: color .3s, gap .3s;
+  display: inline-flex;
+}
+
+.ProjectsHighlight-module__kYDAoG__card:hover .ProjectsHighlight-module__kYDAoG__linkBtn {
+  color: var(--secondary-color);
+  gap: 1rem;
+}
+
+.ProjectsHighlight-module__kYDAoG__arrow {
+  transition: transform .3s;
+}
+
+.ProjectsHighlight-module__kYDAoG__card:hover .ProjectsHighlight-module__kYDAoG__arrow {
+  transform: translateX(5px);
+}
+
+.ProjectsHighlight-module__kYDAoG__downloadSection {
+  justify-content: center;
+  margin-top: 4rem;
+  display: flex;
+}
+
+.ProjectsHighlight-module__kYDAoG__downloadBtn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 50px;
+  align-items: center;
+  gap: .75rem;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all .3s;
+  display: inline-flex;
+  box-shadow: 0 4px 15px #233d6f33;
+}
+
+.ProjectsHighlight-module__kYDAoG__downloadBtn:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px #0d8fd14d;
+}
+
+.ProjectsHighlight-module__kYDAoG__downloadIcon {
+  transition: transform .3s;
+}
+
+.ProjectsHighlight-module__kYDAoG__downloadBtn:hover .ProjectsHighlight-module__kYDAoG__downloadIcon {
+  transform: translateY(3px);
+}
+
+@media (max-width: 768px) {
+  .ProjectsHighlight-module__kYDAoG__headerTop {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .ProjectsHighlight-module__kYDAoG__heading {
+    font-size: 2.25rem;
+  }
+
+  .ProjectsHighlight-module__kYDAoG__downloadBtn {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_components_ProjectsHighlight_module_css_bad6b30c._.single.css.map*/

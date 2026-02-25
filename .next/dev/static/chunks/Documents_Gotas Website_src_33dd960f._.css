@@ -1,0 +1,260 @@
+/* [project]/Documents/Gotas Website/src/components/BackButton.module.css [app-client] (css) */
+.BackButton-module__bBcQsq__backBtn {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #ffffff26;
+  border: 1px solid #fff3;
+  border-radius: 50px;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all .3s;
+  display: inline-flex;
+}
+
+.BackButton-module__bBcQsq__backBtn:hover {
+  background: #ffffff40;
+  transform: translateX(-5px);
+  box-shadow: 0 4px 15px #0000001a;
+}
+
+.BackButton-module__bBcQsq__backBtn svg {
+  transition: transform .3s;
+}
+
+.BackButton-module__bBcQsq__backBtn:hover svg {
+  transform: translateX(-3px);
+}
+
+/* [project]/Documents/Gotas Website/src/app/properties/[slug]/PropertyDetail.module.css [app-client] (css) */
+.PropertyDetail-module__Vfezya__main {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.PropertyDetail-module__Vfezya__hero {
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  align-items: flex-end;
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  position: relative;
+}
+
+.PropertyDetail-module__Vfezya__overlay {
+  z-index: 1;
+  background: linear-gradient(to top, #0f172ae6, #0000);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.PropertyDetail-module__Vfezya__heroContent {
+  z-index: 2;
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+.PropertyDetail-module__Vfezya__topActions {
+  margin-bottom: 2rem;
+}
+
+.PropertyDetail-module__Vfezya__statusBadge {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  font-size: .85rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.PropertyDetail-module__Vfezya__title {
+  text-shadow: 0 4px 10px #0000004d;
+  margin-bottom: .5rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.PropertyDetail-module__Vfezya__location {
+  color: #e2e8f0;
+  font-size: 1.25rem;
+}
+
+.PropertyDetail-module__Vfezya__contentGrid {
+  z-index: 10;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin-top: -3rem;
+  display: grid;
+  position: relative;
+}
+
+.PropertyDetail-module__Vfezya__section {
+  background: var(--bg-color);
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  box-shadow: 0 10px 30px #0000000d;
+}
+
+.PropertyDetail-module__Vfezya__section h2 {
+  color: var(--primary-color);
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.PropertyDetail-module__Vfezya__overviewText {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.PropertyDetail-module__Vfezya__featuresList {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.PropertyDetail-module__Vfezya__featureItem {
+  color: var(--text-primary);
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.PropertyDetail-module__Vfezya__checkIcon {
+  color: var(--accent-color);
+  background: var(--primary-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  font-size: .9rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.PropertyDetail-module__Vfezya__gallery {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  display: grid;
+}
+
+.PropertyDetail-module__Vfezya__galleryImg {
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  height: 250px;
+  transition: transform .3s;
+}
+
+.PropertyDetail-module__Vfezya__galleryImg:hover {
+  transform: scale(1.02);
+}
+
+.PropertyDetail-module__Vfezya__sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+.PropertyDetail-module__Vfezya__bookingCard {
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 20px 40px #233d6f33;
+}
+
+.PropertyDetail-module__Vfezya__bookingCard h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.PropertyDetail-module__Vfezya__price {
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.PropertyDetail-module__Vfezya__bookingText {
+  color: #cbd5e1;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.PropertyDetail-module__Vfezya__primaryBtn, .PropertyDetail-module__Vfezya__secondaryBtn {
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all .3s;
+  display: block;
+}
+
+.PropertyDetail-module__Vfezya__primaryBtn {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.PropertyDetail-module__Vfezya__primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px #ecd01f4d;
+}
+
+.PropertyDetail-module__Vfezya__secondaryBtn {
+  color: #fff;
+  background-color: #0000;
+  border: 1px solid #ffffff4d;
+}
+
+.PropertyDetail-module__Vfezya__secondaryBtn:hover {
+  background-color: #ffffff1a;
+}
+
+@media (max-width: 992px) {
+  .PropertyDetail-module__Vfezya__contentGrid {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  .PropertyDetail-module__Vfezya__sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .PropertyDetail-module__Vfezya__title {
+    font-size: 2.5rem;
+  }
+
+  .PropertyDetail-module__Vfezya__section {
+    padding: 2rem;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_33dd960f._.css.map*/

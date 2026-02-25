@@ -1,0 +1,287 @@
+/* [project]/Documents/Gotas Website/src/app/contact/ContactPage.module.css [app-client] (css) */
+.ContactPage-module__Ok5DwG__main {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+
+.ContactPage-module__Ok5DwG__heroSection {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-4.0.3&auto=format&fit=crop&w=2094&q=80");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  min-height: 400px;
+  display: flex;
+  position: relative;
+}
+
+.ContactPage-module__Ok5DwG__heroOverlay {
+  z-index: 1;
+  background: linear-gradient(to right, #0d8fd1e6, #233d6fe6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ContactPage-module__Ok5DwG__heroContent {
+  z-index: 2;
+  color: #fff;
+  max-width: 800px;
+  margin-top: 50px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.ContactPage-module__Ok5DwG__title {
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.ContactPage-module__Ok5DwG__subtitle {
+  color: #ffffffe6;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.ContactPage-module__Ok5DwG__contentSection {
+  padding: 6rem 0;
+}
+
+.ContactPage-module__Ok5DwG__gridContainer {
+  grid-template-columns: 1fr 1.2fr;
+  gap: 4rem;
+  display: grid;
+}
+
+.ContactPage-module__Ok5DwG__infoBox {
+  background: #fff;
+  border: 1px solid #00000008;
+  border-radius: 24px;
+  height: fit-content;
+  padding: 3rem;
+  box-shadow: 0 10px 40px #0000000d;
+}
+
+.ContactPage-module__Ok5DwG__sectionHeading {
+  color: var(--primary-color);
+  letter-spacing: -.5px;
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.ContactPage-module__Ok5DwG__sectionDesc {
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.ContactPage-module__Ok5DwG__contactDetails {
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.ContactPage-module__Ok5DwG__detailItem {
+  align-items: flex-start;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.ContactPage-module__Ok5DwG__iconWrapper {
+  width: 50px;
+  height: 50px;
+  color: var(--primary-color);
+  background-color: #0d8fd11a;
+  border-radius: 50%;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.ContactPage-module__Ok5DwG__textContent h4 {
+  color: var(--primary-color);
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.ContactPage-module__Ok5DwG__textContent a {
+  color: var(--text-secondary);
+  margin-bottom: .25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: color .3s;
+  display: block;
+}
+
+.ContactPage-module__Ok5DwG__textContent a:hover {
+  color: var(--secondary-color);
+}
+
+.ContactPage-module__Ok5DwG__mapContainer {
+  border: 3px solid #fff;
+  border-radius: 16px;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #0000000d;
+}
+
+.ContactPage-module__Ok5DwG__formBox {
+  background: #fff;
+  border-radius: 24px;
+  padding: 4rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 60px #233d6f14;
+}
+
+.ContactPage-module__Ok5DwG__formBox:before {
+  content: "";
+  background: var(--accent-color);
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ContactPage-module__Ok5DwG__formHeader {
+  margin-bottom: 3rem;
+}
+
+.ContactPage-module__Ok5DwG__formHeader h2 {
+  color: var(--primary-color);
+  letter-spacing: -.5px;
+  margin-bottom: .75rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.ContactPage-module__Ok5DwG__formHeader p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.ContactPage-module__Ok5DwG__contactForm {
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.ContactPage-module__Ok5DwG__inputRow {
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  display: grid;
+}
+
+.ContactPage-module__Ok5DwG__inputGroup {
+  flex-direction: column;
+  gap: .5rem;
+  display: flex;
+}
+
+.ContactPage-module__Ok5DwG__inputGroup label {
+  color: var(--primary-color);
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.ContactPage-module__Ok5DwG__inputGroup input, .ContactPage-module__Ok5DwG__inputGroup select, .ContactPage-module__Ok5DwG__inputGroup textarea {
+  width: 100%;
+  color: var(--text-dark);
+  background-color: #f8fafc;
+  border: 1px solid #0000001a;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all .3s;
+}
+
+.ContactPage-module__Ok5DwG__inputGroup input:focus, .ContactPage-module__Ok5DwG__inputGroup select:focus, .ContactPage-module__Ok5DwG__inputGroup textarea:focus {
+  border-color: var(--secondary-color);
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 4px #0d8fd11a;
+}
+
+.ContactPage-module__Ok5DwG__inputGroup textarea {
+  resize: vertical;
+}
+
+.ContactPage-module__Ok5DwG__submitBtn {
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  margin-top: 1rem;
+  padding: 1.25rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.ContactPage-module__Ok5DwG__submitBtn:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px #0d8fd133;
+}
+
+@media (max-width: 1024px) {
+  .ContactPage-module__Ok5DwG__gridContainer {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContactPage-module__Ok5DwG__title {
+    font-size: 2.75rem;
+  }
+
+  .ContactPage-module__Ok5DwG__formBox {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .ContactPage-module__Ok5DwG__infoBox {
+    padding: 2rem 1.5rem;
+  }
+
+  .ContactPage-module__Ok5DwG__inputRow {
+    grid-template-columns: 1fr;
+  }
+
+  .ContactPage-module__Ok5DwG__formHeader h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ContactPage-module__Ok5DwG__contentSection {
+    padding: 3rem 0;
+  }
+
+  .ContactPage-module__Ok5DwG__formBox {
+    z-index: 10;
+    margin-top: -20px;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_app_contact_ContactPage_module_a0a3732d.css.map*/

@@ -1,0 +1,353 @@
+@import "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap";
+/* [project]/Documents/Gotas Website/src/app/globals.css [app-client] (css) */
+:root {
+  --primary-color: #233d6f;
+  --secondary-color: #0d8fd1;
+  --accent-color: #ecd01f;
+  --bg-color: #fff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --bg-dark: #0f172a;
+  --text-light: #f8fafc;
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Outfit", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  font-family: var(--font-body);
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+button {
+  font-family: var(--font-body);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* [project]/Documents/Gotas Website/src/components/Header.module.css [app-client] (css) */
+.Header-module__jRA_OW__header {
+  z-index: 100;
+  background: none;
+  width: 100%;
+  padding: 1.5rem 0;
+  transition: all .3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Header-module__jRA_OW__scrolled {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #ffffffe6;
+  padding: 1rem 0;
+  box-shadow: 0 4px 30px #0000000d;
+}
+
+.Header-module__jRA_OW__scrolled .Header-module__jRA_OW__logo, .Header-module__jRA_OW__scrolled .Header-module__jRA_OW__navList a {
+  color: var(--primary-color);
+}
+
+.Header-module__jRA_OW__nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__jRA_OW__logo {
+  font-family: var(--font-heading);
+  color: var(--bg-color);
+  letter-spacing: -.5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: color .3s;
+}
+
+.Header-module__jRA_OW__navList {
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Header-module__jRA_OW__navList a {
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: opacity .3s, color .3s;
+}
+
+.Header-module__jRA_OW__navList a:hover {
+  opacity: .8;
+  color: var(--accent-color);
+}
+
+.Header-module__jRA_OW__navList a.Header-module__jRA_OW__active {
+  color: var(--accent-color);
+  position: relative;
+}
+
+.Header-module__jRA_OW__navList a.Header-module__jRA_OW__active:after {
+  content: "";
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.Header-module__jRA_OW__scrolled .Header-module__jRA_OW__navList a.Header-module__jRA_OW__active {
+  color: var(--primary-color);
+}
+
+.Header-module__jRA_OW__scrolled .Header-module__jRA_OW__navList a.Header-module__jRA_OW__active:after {
+  background-color: var(--primary-color);
+}
+
+.Header-module__jRA_OW__actions {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.Header-module__jRA_OW__cta {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 50px;
+  padding: .75rem 1.5rem;
+  font-size: .9rem;
+  font-weight: 600;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.Header-module__jRA_OW__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px #ecd01f4d;
+}
+
+.Header-module__jRA_OW__hamburger {
+  color: var(--bg-color);
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.Header-module__jRA_OW__scrolled .Header-module__jRA_OW__hamburger {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .Header-module__jRA_OW__header {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: #fffffff2;
+    padding: 1rem 0;
+    box-shadow: 0 4px 30px #0000000d;
+  }
+
+  .Header-module__jRA_OW__logo {
+    color: var(--primary-color);
+    font-size: 1.35rem;
+  }
+
+  .Header-module__jRA_OW__cta {
+    display: none;
+  }
+
+  .Header-module__jRA_OW__nav {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+
+  .Header-module__jRA_OW__navList {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    background: #0f172afa;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    transition: all .4s cubic-bezier(.16, 1, .3, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(-20px);
+  }
+
+  .Header-module__jRA_OW__navOpen {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .Header-module__jRA_OW__navList a {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    font-size: 2rem;
+    display: block;
+  }
+
+  .Header-module__jRA_OW__navList a.Header-module__jRA_OW__active, .Header-module__jRA_OW__scrolled .Header-module__jRA_OW__navList a.Header-module__jRA_OW__active {
+    color: var(--accent-color);
+  }
+
+  .Header-module__jRA_OW__hamburger {
+    z-index: 101;
+    color: var(--primary-color);
+    transition: color .3s;
+    display: block;
+    position: relative;
+  }
+
+  .Header-module__jRA_OW__hamburgerOpen {
+    color: #fff !important;
+  }
+}
+
+/* [project]/Documents/Gotas Website/src/components/Footer.module.css [app-client] (css) */
+.Footer-module__3OTYca__footer {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding-top: 5rem;
+}
+
+.Footer-module__3OTYca__grid {
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 3rem;
+  padding-bottom: 4rem;
+  display: grid;
+}
+
+.Footer-module__3OTYca__brand h2 {
+  color: var(--bg-color);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.Footer-module__3OTYca__brand p {
+  color: #94a3b8;
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.Footer-module__3OTYca__linksBlock, .Footer-module__3OTYca__contactBlock {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.Footer-module__3OTYca__linksBlock h3, .Footer-module__3OTYca__contactBlock h3 {
+  color: var(--bg-color);
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+
+.Footer-module__3OTYca__linksBlock a, .Footer-module__3OTYca__contactBlock a, .Footer-module__3OTYca__contactBlock p {
+  color: #cbd5e1;
+  font-size: .95rem;
+  transition: color .3s;
+}
+
+.Footer-module__3OTYca__linksBlock a:hover, .Footer-module__3OTYca__contactBlock a:hover {
+  color: var(--accent-color);
+}
+
+.Footer-module__3OTYca__bottom {
+  text-align: center;
+  color: #64748b;
+  border-top: 1px solid #ffffff1a;
+  padding: 2rem 0;
+  font-size: .875rem;
+}
+
+@media (max-width: 768px) {
+  .Footer-module__3OTYca__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* [project]/Documents/Gotas Website/src/components/ScrollToTop.module.css [app-client] (css) */
+.ScrollToTop-module__Ex76Ta__scrollToTopBtn {
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 90;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: all .3s cubic-bezier(.4, 0, .2, 1);
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transform: translateY(20px);
+  box-shadow: 0 10px 20px #0003;
+}
+
+.ScrollToTop-module__Ex76Ta__scrollToTopBtn.ScrollToTop-module__Ex76Ta__visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.ScrollToTop-module__Ex76Ta__scrollToTopBtn:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px #ecd01f4d;
+}
+
+@media (max-width: 768px) {
+  .ScrollToTop-module__Ex76Ta__scrollToTopBtn {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*# sourceMappingURL=Documents_Gotas%20Website_src_a9a9aeb2._.css.map*/

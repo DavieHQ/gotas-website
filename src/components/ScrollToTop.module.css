@@ -18,7 +18,7 @@
     visibility: hidden;
     transform: translateY(20px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 999;
+    z-index: 90;
 }
 
 .scrollToTopBtn.visible {

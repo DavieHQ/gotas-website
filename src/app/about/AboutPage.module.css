@@ -373,15 +373,30 @@
         grid-template-columns: 1fr;
     }
 
-    .quoteText {
-        font-size: 2rem;
+    .storyContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .imageWrapper {
+        position: relative;
+        min-height: 400px;
+        margin-bottom: 5rem;
     }
 
     .floatingStats {
-        flex-direction: column;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        padding: 1.5rem 1rem;
         gap: 1.5rem;
-        padding: 1.5rem;
-        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .quoteText {
+        font-size: 2rem;
     }
 
     .divider {

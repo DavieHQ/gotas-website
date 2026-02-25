@@ -25,19 +25,19 @@ export default function Header() {
                     Gotas Diamond
                 </Link>
                 {/* The original div.links is replaced by the ul.navList */}
-                <ul className={styles.navList}>
-                    <li><Link href="/" className={pathname === '/' ? styles.active : ''}>Home</Link></li>
-                    <li><Link href="/about" className={pathname === '/about' ? styles.active : ''}>About</Link></li>
-                    <li><Link href="/properties" className={pathname.startsWith('/properties') ? styles.active : ''}>Properties</Link></li>
-                    <li><Link href="/contact" className={pathname === '/contact' ? styles.active : ''}>Contact</Link></li>
+                <ul className={`${styles.navList} ${menuOpen ? styles.navOpen : ''}`}>
+                    <li><Link href="/" onClick={() => setMenuOpen(false)} className={pathname === '/' ? styles.active : ''}>Home</Link></li>
+                    <li><Link href="/about" onClick={() => setMenuOpen(false)} className={pathname === '/about' ? styles.active : ''}>About</Link></li>
+                    <li><Link href="/properties" onClick={() => setMenuOpen(false)} className={pathname.startsWith('/properties') ? styles.active : ''}>Properties</Link></li>
+                    <li><Link href="/contact" onClick={() => setMenuOpen(false)} className={pathname === '/contact' ? styles.active : ''}>Contact</Link></li>
                 </ul>
                 <div className={styles.actions}>
                     <Link href="/contact" className={styles.cta}>Book Inspection</Link>
                     <button
-                        className={styles.hamburger}
+                        className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
                         onClick={() => setMenuOpen(!menuOpen)}
                     >
-                        ☰
+                        {menuOpen ? '✕' : '☰'}
                     </button>
                 </div>
             </div>
