@@ -1,0 +1,1 @@
+ALTER TABLE `listing_updates` ADD `content` text;

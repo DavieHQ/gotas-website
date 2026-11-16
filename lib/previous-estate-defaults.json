@@ -1,0 +1,106 @@
+{
+  "gotas-ecocity-idu-gousa": {
+    "overview": "Planned around green spaces, Gotas Ecocity brings the quieter pace of suburban life within reach of the city. Paved roads, recreational parks and shared infrastructure make up the estate in Idu Gousa, where Gotas began with its first 91 serviced plots.",
+    "subtitle": "A garden community with room to grow.",
+    "features": [
+      "Modern infrastructure",
+      "24-hour security",
+      "Paved roads",
+      "Recreational parks",
+      "Stable power supply"
+    ],
+    "status": "Selling fast",
+    "gallery": [
+      {
+        "image": "ecocity",
+        "alt": "Glass-walled home under mature trees at dusk",
+        "caption": "Garden and exterior"
+      },
+      {
+        "image": "ecocity-interior",
+        "alt": "Timber and stone courtyard at a residential entrance",
+        "caption": "Entrance and courtyard"
+      }
+    ],
+    "listingPrice": 16000000,
+    "priceLabel": "Published land price"
+  },
+  "kingsland-idu-gousa": {
+    "overview": "Kingsland pairs high-end finishes with smart-home integration. The gated estate in Idu Gousa is planned for residents who value privacy, shared leisure spaces and ample parking. A clubhouse and pool form part of its published amenities.",
+    "subtitle": "Connected homes in a gated community.",
+    "features": [
+      "Luxury finishing",
+      "Smart-home integration",
+      "Clubhouse and pool",
+      "Gated community",
+      "Ample parking"
+    ],
+    "status": "Available",
+    "gallery": [
+      {
+        "image": "kingsland",
+        "alt": "White modern house with a terrace beside a pool",
+        "caption": "Residence and terrace"
+      },
+      {
+        "image": "kingsland-other",
+        "alt": "Contemporary residential building seen from street level",
+        "caption": "Residential architecture"
+      }
+    ],
+    "listingPrice": 12000000,
+    "priceLabel": "Published listing price"
+  },
+  "kings-garden-estate-kabusa": {
+    "overview": "Kings Garden Estate combines landscaped green areas with road access and a perimeter fence in Kabusa. Its peaceful setting and essential services are intended for growing families and professionals who want a quieter home within the city.",
+    "subtitle": "Green space and a quieter pace in Kabusa.",
+    "features": [
+      "Serene environment",
+      "Good road network",
+      "Perimeter fencing",
+      "Water supply",
+      "Green areas"
+    ],
+    "status": "Now selling",
+    "gallery": [
+      {
+        "image": "kings-garden",
+        "alt": "Light-filled living room opening onto an outdoor terrace",
+        "caption": "Living space"
+      },
+      {
+        "image": "kings-garden-detail",
+        "alt": "Detail of the joinery and seating in the living room",
+        "caption": "Materials and finishing"
+      }
+    ],
+    "listingPrice": 16000000,
+    "priceLabel": "Published listing price"
+  },
+  "the-aurora-by-gotas": {
+    "overview": "Also known as Gotas Pearl Residences, The Aurora is planned as an eco-themed estate in Sauka, Kuje. It neighbours Double Kings and Fhemfels estates. The development aims to combine smart-home features, nature and accessible payment plans upon completion.",
+    "subtitle": "Eco-themed living in the Sauka area of Kuje.",
+    "features": [
+      "Smart-home experience",
+      "Eco-themed surroundings",
+      "Prime location in Sauka",
+      "Affordable plans",
+      "Secure community"
+    ],
+    "status": "Available",
+    "gallery": [
+      {
+        "image": "aurora",
+        "alt": "Quiet, pale interior with a chair beside a garden window",
+        "caption": "Living space"
+      },
+      {
+        "image": "aurora-detail",
+        "alt": "Garden-facing glazing and sitting area",
+        "caption": "Garden-facing detail"
+      }
+    ],
+    "listingPrice": 8000000,
+    "priceLabel": "Published listing price"
+  }
+}
